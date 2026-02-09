@@ -6,6 +6,7 @@ A beginner-friendly project to learn **SQLAlchemy ORM (2.0 style)** by building 
 
 ## 📁 Project Structure
 
+```
 sqlalchemy-user-management/
 ├── app/
 │ ├── database.py # engine & session
@@ -15,7 +16,7 @@ sqlalchemy-user-management/
 ├── venv/
 ├── requirements.txt
 └── users.db
-
+```
 ---
 
 ## ⚙️ Setup
