@@ -3,15 +3,13 @@ from sqlalchemy.orm import sessionmaker, DeclarativeBase
 
 DATABASE_URL = "sqlite:///users.db"
 
+
 class Base(DeclarativeBase):
     pass
 
+
 engine = create_engine(
     DATABASE_URL,
-    echo = True,
+    echo=True,
 )
-SessionLocal = sessionmaker(
-    bind = engine,
-    autoflush = False,
-    autocommit = False
-)
+SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
