@@ -15,5 +15,6 @@ class User(Base):
 
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
+# This controls how the object prints (for debugging)
     def __repr__(self):
         return f"<User id={self.id} name={self.name}>"

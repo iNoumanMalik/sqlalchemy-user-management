@@ -3,7 +3,8 @@ from app.models import Base
 from app.database import SessionLocal
 from app import crud
 
-Base.metadata.create_all(bind=engine)
+#Look at all models that inherit from Base, Generate SQL for their tables, Create tables if they don’t already exist
+Base.metadata.create_all(bind=engine) 
 
 db = SessionLocal()
 
