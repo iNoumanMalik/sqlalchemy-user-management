@@ -31,14 +31,14 @@ python -m app.main
 
 ## 🧠 Concepts Practiced
 
-SQLAlchemy Engine & Session
-Declarative ORM models
-CRUD operations
-Constraints (primary key, unique, not null)
-Defaults & timestamps
+SQLAlchemy Engine & Session\
+Declarative ORM models\
+CRUD operations\
+Constraints (primary key, unique, not null)\
+Defaults & timestamps\
 
 ## 🛠 Tech Stack
 
-Python
-SQLAlchemy (ORM)
-SQLite
+Python\
+SQLAlchemy (ORM)\
+SQLite\
